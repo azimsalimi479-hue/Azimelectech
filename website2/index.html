@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Azim Elec Tech | Elektricien Sint-Niklaas - Herstellingen, Renovaties & Installaties</title>
+  <meta name="description" content="Azim Elec Tech is uw betrouwbare elektricien in Sint-Niklaas. Wij bieden herstellingen, renovaties, installaties en keuring-klaar maken van woningen en bedrijven." />
+  <meta name="keywords" content="Elektricien, Sint-Niklaas, Herstellingen, Renovaties, Elektrische Installaties, Keuring, Azim Elec Tech" />
+  <meta name="author" content="Azim Elec Tech" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.azimelectech.be/" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Azim Elec Tech | Elektricien Sint-Niklaas" />
+  <meta property="og:description" content="Betrouwbare elektricien in Sint-Niklaas. Herstellingen, renovaties en installaties voor woningen en bedrijven." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.azimelectech.be/" />
+  <meta property="og:image" content="https://www.azimelectech.be/images/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Azim Elec Tech | Elektricien Sint-Niklaas" />
+  <meta name="twitter:description" content="Betrouwbare elektricien in Sint-Niklaas. Herstellingen, renovaties en installaties voor woningen en bedrijven." />
+  <meta name="twitter:image" content="https://www.azimelectech.be/images/og-image.jpg" />
+
+  <!-- Tailwind (required) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    :root {
+      --brand1: #667eea;
+      --brand2: #764ba2;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fade-in { animation: fadeIn 0.6s ease-out both; }
+    .gradient-bg { background: linear-gradient(135deg, var(--brand1) 0%, var(--brand2) 100%); }
+    .gradient-text {
+      background: linear-gradient(135deg, var(--brand1) 0%, var(--brand2) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* Accessible focus ring */
+    :focus-visible { outline: 3px solid rgba(102, 126, 234, 0.45); outline-offset: 3px; }
+
+    /* Reveal on scroll */
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity 600ms ease, transform 600ms ease; }
+    .reveal.reveal-visible { opacity: 1; transform: translateY(0); }
+
+    /* Subtle hero pattern (works on light hero too) */
+    .hero-pattern {
+      background-image:
+        radial-gradient(rgba(88, 28, 135, 0.10) 1px, transparent 1px);
+      background-size: 22px 22px;
+    }
+
+    /* Improve readability on hero */
+    .hero-text-shadow { text-shadow: 0 2px 16px rgba(0,0,0,0.30); }
+
+    /* Lightbox */
+    .modal-backdrop { background: rgba(15, 23, 42, 0.7); }
+
+    /* Reduce motion */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .fade-in { animation: none; }
+      .reveal { transition: none; transform: none; }
+    }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "Azim Elec Tech",
+    "image": "https://www.azimelectech.be/images/logo.png",
+    "@id": "https://www.azimelectech.be",
+    "url": "https://www.azimelectech.be",
+    "telephone": "+32486708688",
+    "priceRange": "€€",
+    "areaServed": ["Sint-Niklaas", "Waasland", "Oost-Vlaanderen"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Joseph Lonckestraat 19B bus 201",
+      "addressLocality": "Sint-Niklaas",
+      "postalCode": "9100",
+      "addressCountry": "BE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.1622,
+      "longitude": 4.1447
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://www.facebook.com/azimelectech",
+      "https://www.linkedin.com/company/azimelectech"
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-white focus:text-gray-900 focus:px-4 focus:py-2 focus:rounded-lg shadow">Ga naar inhoud</a>
+
+  <header>
+    <!-- Navigation -->
+    <nav class="bg-white/90 supports-[backdrop-filter]:bg-white/70 backdrop-blur shadow-lg fixed w-full top-0 z-50" aria-label="Hoofdnavigatie">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-xl gradient-bg grid place-items-center shadow" aria-hidden="true">
+              <span class="text-white font-black">AE</span>
+            </div>
+            <span class="text-xl sm:text-2xl font-bold gradient-text">Azim Elec Tech</span>
+          </div>
+
+          <div class="hidden md:flex items-center gap-8">
+            <a href="#home" class="text-gray-700 hover:text-purple-700 transition">Home</a>
+            <a href="#services" class="text-gray-700 hover:text-purple-700 transition">Onze diensten</a>
+            <a href="#about" class="text-gray-700 hover:text-purple-700 transition">Over ons</a>
+            <a href="#projects" class="text-gray-700 hover:text-purple-700 transition">Projecten</a>
+            <a href="#faq" class="text-gray-700 hover:text-purple-700 transition">FAQ</a>
+            <a href="#contact" class="text-gray-700 hover:text-purple-700 transition">Contact</a>
+            <a href="tel:+32486708688" class="inline-flex items-center gap-2 bg-purple-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-purple-700 transition" aria-label="Bel Azim Elec Tech">
+              <span aria-hidden="true">📞</span><span>Bel nu</span>
+            </a>
+          </div>
+
+          <button id="mobile-menu-btn" aria-label="Open mobiel menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden text-gray-700 p-2 rounded-lg hover:bg-gray-100 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="hidden md:hidden bg-white border-t" role="region" aria-label="Mobiel menu">
+        <div class="max-w-7xl mx-auto px-4 py-3 space-y-1">
+          <a href="#home" class="block px-3 py-2 text-gray-700 hover:bg-purple-50 rounded">Home</a>
+          <a href="#services" class="block px-3 py-2 text-gray-700 hover:bg-purple-50 rounded">Onze diensten</a>
+          <a href="#about" class="block px-3 py-2 text-gray-700 hover:bg-purple-50 rounded">Over ons</a>
+          <a href="#projects" class="block px-3 py-2 text-gray-700 hover:bg-purple-50 rounded">Projecten</a>
+          <a href="#faq" class="block px-3 py-2 text-gray-700 hover:bg-purple-50 rounded">FAQ</a>
+          <a href="#contact" class="block px-3 py-2 text-gray-700 hover:bg-purple-50 rounded">Contact</a>
+          <a href="tel:+32486708688" class="block px-3 py-2 text-purple-700 font-semibold hover:bg-purple-50 rounded">📞 +32 486 70 86 88</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section id="home" class="pt-16 min-h-screen flex items-center bg-gradient-to-br from-purple-50 via-white to-gray-50 hero-pattern relative overflow-hidden">
+      <div aria-hidden="true" class="absolute -top-28 -right-28 w-[520px] h-[520px] rounded-full gradient-bg opacity-20 blur-3xl"></div>
+      <div aria-hidden="true" class="absolute -bottom-32 -left-32 w-[620px] h-[620px] rounded-full gradient-bg opacity-15 blur-3xl"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center fade-in">
+        <p class="inline-flex items-center gap-2 text-purple-900 bg-white/70 border border-purple-100 px-4 py-2 rounded-full text-sm sm:text-base mb-6 shadow-sm">
+          <span aria-hidden="true">⚡</span>
+          <span>Elektricien in Sint-Niklaas & omgeving • Herstellingen • Renovaties • Installaties</span>
+        </p>
+
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
+          Welkom bij <span class="gradient-text">Azim Elec Tech</span> – uw betrouwbare elektricien
+        </h1>
+
+        <p class="text-lg sm:text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
+          Elektrische storingen oplossen, renovaties uitvoeren of uw woning keuring-klaar maken.
+        </p>
+        <p class="text-base sm:text-lg md:text-xl text-gray-700 mb-10 max-w-3xl mx-auto">
+          Met meer dan <strong>5 jaar ervaring</strong> en <strong>gecertificeerd vakmanschap</strong> leveren wij veilige, nette en duurzame installaties.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#contact" class="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition shadow" aria-label="Ga naar contact">
+            Neem contact op
+          </a>
+          <a href="#services" class="border-2 border-purple-200 text-gray-900 bg-white/60 px-8 py-3 rounded-full font-semibold hover:bg-white hover:border-purple-300 transition" aria-label="Ga naar diensten">
+            Bekijk onze diensten
+          </a>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+          <div class="bg-white/80 border border-gray-200 rounded-2xl p-5 text-left shadow-sm">
+            <p class="text-gray-900 font-semibold">Snelle interventie</p>
+            <p class="text-gray-600 text-sm">Bij storingen denken wij mee en handelen wij snel.</p>
+          </div>
+          <div class="bg-white/80 border border-gray-200 rounded-2xl p-5 text-left shadow-sm">
+            <p class="text-gray-900 font-semibold">Netjes & veilig</p>
+            <p class="text-gray-600 text-sm">Correcte zekeringen, aarding en afwerking volgens AREI.</p>
+          </div>
+          <div class="bg-white/80 border border-gray-200 rounded-2xl p-5 text-left shadow-sm">
+            <p class="text-gray-900 font-semibold">Keuring-klaar</p>
+            <p class="text-gray-600 text-sm">Aanpassingen en schema’s om vlot door de keuring te geraken.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+          <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-4">🔧 Onze diensten</h2>
+          <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+            Professionele elektrische oplossingen op maat voor uw woning of bedrijf.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">⚡</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Herstellingen & storingen</h3>
+            <p class="text-gray-600">Snelle en professionele oplossing van elektrische storingen en defecten.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">🔧</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Elektrische renovaties</h3>
+            <p class="text-gray-600">Volledige vernieuwing van verouderde elektrische installaties.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">✅</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Keuring-klaar maken</h3>
+            <p class="text-gray-600">Uw woning voorbereiden voor een succesvolle elektrische keuring.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">💡</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Verlichting</h3>
+            <p class="text-gray-600">Plaatsing en aansluiting van binnen-, buiten- en sfeerverlichting.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">🔌</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Stopcontacten & schakelaars</h3>
+            <p class="text-gray-600">Installatie, verplaatsing of uitbreiding op de gewenste locatie.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">🏠</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Woninginstallaties</h3>
+            <p class="text-gray-600">Complete elektrische installatie voor nieuwbouw en renovatieprojecten.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">📋</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Schema’s (AREI)</h3>
+            <p class="text-gray-600">Eendraadschema’s en situatieschema’s conform de normen.</p>
+          </div>
+          <div class="service-card bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1 reveal">
+            <div class="text-5xl mb-4" aria-hidden="true">💬</div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Advies & begeleiding</h3>
+            <p class="text-gray-600">Persoonlijk advies bij indeling, materialen en keuring.</p>
+          </div>
+        </div>
+
+        <div class="mt-14 bg-gray-50 border rounded-2xl p-6 sm:p-8 reveal">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div>
+              <h3 class="text-2xl font-black">Snel een offerte of advies?</h3>
+              <p class="text-gray-600 mt-2">Stuur uw vraag door. U ontvangt zo snel mogelijk een antwoord.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a href="tel:+32486708688" class="bg-gray-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">📞 Bel +32 486 70 86 88</a>
+              <a href="#contact" class="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition">✉️ Vraag offerte</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-10 items-start">
+          <div class="reveal">
+            <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-4">Over Azim Elec Tech</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Azim Elec Tech is een lokale elektricien in <strong>Sint-Niklaas</strong>. Wij helpen particulieren en bedrijven met herstellingen,
+              renovaties en nieuwe installaties — met focus op <strong>veiligheid</strong>, <strong>netjes werk</strong> en <strong>duidelijke communicatie</strong>.
+            </p>
+
+            <div class="mt-8 grid sm:grid-cols-2 gap-4">
+              <div class="bg-white rounded-2xl border p-5 shadow-sm">
+                <p class="font-semibold">✅ AREI-gericht</p>
+                <p class="text-sm text-gray-600">Wij werken volgens de Belgische normen (keuring-klaar).</p>
+              </div>
+              <div class="bg-white rounded-2xl border p-5 shadow-sm">
+                <p class="font-semibold">🧰 Nette afwerking</p>
+                <p class="text-sm text-gray-600">Kabelbeheer, correcte labeling en een propere werf.</p>
+              </div>
+              <div class="bg-white rounded-2xl border p-5 shadow-sm">
+                <p class="font-semibold">🕒 Flexibele planning</p>
+                <p class="text-sm text-gray-600">Afspraak in overleg — ook voor dringende interventies.</p>
+              </div>
+              <div class="bg-white rounded-2xl border p-5 shadow-sm">
+                <p class="font-semibold">🔎 Transparant advies</p>
+                <p class="text-sm text-gray-600">Heldere uitleg over opties, prijs en aanpak.</p>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <h3 class="text-xl font-bold">Werkgebied</h3>
+              <p class="text-gray-600 mt-2">Sint-Niklaas, Waasland en omgeving (Oost‑Vlaanderen). Vraag gerust na bij twijfel.</p>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="bg-white border rounded-3xl p-6 sm:p-8 shadow-lg">
+              <h3 class="text-2xl font-black">Hoe wij te werk gaan</h3>
+              <ol class="mt-6 space-y-4">
+                <li class="flex gap-4">
+                  <span class="w-10 h-10 rounded-xl gradient-bg text-white font-black grid place-items-center">1</span>
+                  <div>
+                    <p class="font-semibold">Contact & analyse</p>
+                    <p class="text-gray-600 text-sm">U beschrijft de situatie (foto’s helpen). Wij bespreken samen de beste oplossing.</p>
+                  </div>
+                </li>
+                <li class="flex gap-4">
+                  <span class="w-10 h-10 rounded-xl gradient-bg text-white font-black grid place-items-center">2</span>
+                  <div>
+                    <p class="font-semibold">Offerte & planning</p>
+                    <p class="text-gray-600 text-sm">Duidelijke prijsafspraak en planning volgens uw agenda.</p>
+                  </div>
+                </li>
+                <li class="flex gap-4">
+                  <span class="w-10 h-10 rounded-xl gradient-bg text-white font-black grid place-items-center">3</span>
+                  <div>
+                    <p class="font-semibold">Uitvoering</p>
+                    <p class="text-gray-600 text-sm">Veilig, netjes en efficiënt — met respect voor uw woning/bedrijf.</p>
+                  </div>
+                </li>
+                <li class="flex gap-4">
+                  <span class="w-10 h-10 rounded-xl gradient-bg text-white font-black grid place-items-center">4</span>
+                  <div>
+                    <p class="font-semibold">Oplevering & keuring</p>
+                    <p class="text-gray-600 text-sm">Afwerking, controle en (indien nodig) schema’s voor de keuring.</p>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="mt-8 bg-purple-50 border border-purple-100 rounded-2xl p-5">
+                <p class="font-semibold text-purple-900">Tip voor keuring</p>
+                <p class="text-sm text-purple-900/80 mt-1">Heeft u een afkeuring? Stuur het keuringsverslag door; wij kunnen gericht corrigeren.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14 reveal">
+          <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-4">🧱 Projecten & realisaties</h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">Enkele voorbeelden van werkzaamheden (indicatief). Vraag gerust naar referenties of vergelijkbare cases.</p>
+        </div>
+
+        <div class="flex flex-wrap gap-2 justify-center mb-10 reveal" role="tablist" aria-label="Project filters">
+          <button class="filter-btn px-4 py-2 rounded-full border text-sm font-semibold bg-gray-900 text-white" data-filter="all" role="tab" aria-selected="true">Alles</button>
+          <button class="filter-btn px-4 py-2 rounded-full border text-sm font-semibold hover:bg-gray-50" data-filter="woning" role="tab" aria-selected="false">Woning</button>
+          <button class="filter-btn px-4 py-2 rounded-full border text-sm font-semibold hover:bg-gray-50" data-filter="bedrijf" role="tab" aria-selected="false">Bedrijf</button>
+          <button class="filter-btn px-4 py-2 rounded-full border text-sm font-semibold hover:bg-gray-50" data-filter="keuring" role="tab" aria-selected="false">Keuring</button>
+        </div>
+
+        <div id="project-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+          <!-- Cards injected by JS for easy maintenance -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-gray-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 reveal">
+          <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-4">❓ Veelgestelde vragen</h2>
+          <p class="text-lg text-gray-600">Duidelijke antwoorden, zonder verrassingen.</p>
+        </div>
+
+        <div class="space-y-4 reveal">
+          <details class="group bg-white border rounded-2xl p-5 shadow-sm">
+            <summary class="cursor-pointer font-semibold flex items-center justify-between">
+              <span>Werkt u ook in het weekend of voor dringende storingen?</span>
+              <span class="text-gray-500 group-open:rotate-180 transition" aria-hidden="true">▾</span>
+            </summary>
+            <p class="mt-3 text-gray-600">Ja, afhankelijk van de planning. Bel of mail, dan bekijken wij samen de snelste oplossing.</p>
+          </details>
+
+          <details class="group bg-white border rounded-2xl p-5 shadow-sm">
+            <summary class="cursor-pointer font-semibold flex items-center justify-between">
+              <span>Maakt u installaties keuring-klaar volgens AREI?</span>
+              <span class="text-gray-500 group-open:rotate-180 transition" aria-hidden="true">▾</span>
+            </summary>
+            <p class="mt-3 text-gray-600">Ja. Wij bekijken aarding, differentieelschakelaars, kastindeling, kringen, labeling en waar nodig de schema’s.</p>
+          </details>
+
+          <details class="group bg-white border rounded-2xl p-5 shadow-sm">
+            <summary class="cursor-pointer font-semibold flex items-center justify-between">
+              <span>Voorziet u ook eendraadschema’s en situatieschema’s?</span>
+              <span class="text-gray-500 group-open:rotate-180 transition" aria-hidden="true">▾</span>
+            </summary>
+            <p class="mt-3 text-gray-600">Ja, conform de vereisten voor keuring. Stuur uw gegevens/plan door en wij bespreken wat nodig is.</p>
+          </details>
+
+          <details class="group bg-white border rounded-2xl p-5 shadow-sm">
+            <summary class="cursor-pointer font-semibold flex items-center justify-between">
+              <span>Hoe vraagt u een offerte aan?</span>
+              <span class="text-gray-500 group-open:rotate-180 transition" aria-hidden="true">▾</span>
+            </summary>
+            <p class="mt-3 text-gray-600">Via het contactformulier of telefonisch. Voeg bij voorkeur foto’s en een korte beschrijving toe voor een snellere inschatting.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14 reveal">
+          <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-4">📩 Contact</h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">Vragen, offerte of een dringende storing? Neem contact op — u krijgt zo snel mogelijk antwoord.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-10">
+          <div class="space-y-4 reveal">
+            <div class="bg-gray-50 border rounded-2xl p-6">
+              <h3 class="font-bold text-xl">Contactgegevens</h3>
+              <ul class="mt-4 space-y-3 text-gray-700">
+                <li class="flex gap-3">
+                  <span aria-hidden="true">📞</span>
+                  <a class="hover:underline" href="tel:+32486708688">+32 486 70 86 88</a>
+                </li>
+                <li class="flex gap-3">
+                  <span aria-hidden="true">✉️</span>
+                  <a class="hover:underline" href="mailto:Azimsalimi479@gmail.com">Azimsalimi479@gmail.com</a>
+                </li>
+                <li class="flex gap-3">
+                  <span aria-hidden="true">📍</span>
+                  <span>Sint-Niklaas (BE)</span>
+                </li>
+                <li class="flex gap-3">
+                  <span aria-hidden="true">🧾</span>
+                  <span>BTW 1001449378</span>
+                </li>
+              </ul>
+
+              <div class="mt-5 flex flex-col sm:flex-row gap-3">
+                <a href="tel:+32486708688" class="bg-gray-900 text-white px-5 py-3 rounded-full font-semibold hover:bg-gray-800 transition">Bel direct</a>
+                <a href="#" id="copy-contact" class="bg-white border px-5 py-3 rounded-full font-semibold hover:bg-gray-50 transition" aria-label="Kopieer telefoon en e-mail">Kopieer gegevens</a>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 border rounded-2xl p-6">
+              <h3 class="font-bold text-xl">Wat mag u meesturen?</h3>
+              <ul class="mt-3 space-y-2 text-gray-700 list-disc pl-5">
+                <li>Foto’s van de zekeringkast of het probleem</li>
+                <li>Adres (of gemeente) en gewenste timing</li>
+                <li>Bij keuring: het keuringsverslag</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <form id="contact-form" class="bg-white border rounded-3xl p-6 sm:p-8 shadow-lg" novalidate>
+              <h3 class="text-2xl font-black">Stuur een bericht</h3>
+              <p class="text-gray-600 mt-2">Wij gebruiken deze info enkel om uw vraag te beantwoorden.</p>
+
+              <div class="mt-6 grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="name" class="block text-sm font-semibold text-gray-700">Naam *</label>
+                  <input id="name" name="name" type="text" autocomplete="name" required class="mt-2 w-full rounded-xl border px-4 py-3 focus:border-purple-500" placeholder="Uw naam" />
+                  <p class="mt-1 text-sm text-red-600 hidden" data-error-for="name">Vul uw naam in.</p>
+                </div>
+                <div>
+                  <label for="phone" class="block text-sm font-semibold text-gray-700">Telefoon</label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" class="mt-2 w-full rounded-xl border px-4 py-3 focus:border-purple-500" placeholder="Bijv. +32..." />
+                  <p class="mt-1 text-sm text-red-600 hidden" data-error-for="phone">Vul een geldig telefoonnummer in.</p>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="email" class="block text-sm font-semibold text-gray-700">E-mail *</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required class="mt-2 w-full rounded-xl border px-4 py-3 focus:border-purple-500" placeholder="uw@email.be" />
+                  <p class="mt-1 text-sm text-red-600 hidden" data-error-for="email">Vul een geldig e-mailadres in.</p>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="subject" class="block text-sm font-semibold text-gray-700">Onderwerp</label>
+                  <select id="subject" name="subject" class="mt-2 w-full rounded-xl border px-4 py-3 focus:border-purple-500">
+                    <option value="Offerte">Offerte</option>
+                    <option value="Storing">Storing</option>
+                    <option value="Renovatie">Renovatie</option>
+                    <option value="Keuring">Keuring-klaar maken</option>
+                    <option value="Schema">Eendraadschema / Situatieschema</option>
+                    <option value="Overig">Overig</option>
+                  </select>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="message" class="block text-sm font-semibold text-gray-700">Bericht *</label>
+                  <textarea id="message" name="message" required rows="6" class="mt-2 w-full rounded-xl border px-4 py-3 focus:border-purple-500" placeholder="Beschrijf kort uw vraag (gemeente, situatie, eventuele keuring, ...)"></textarea>
+                  <p class="mt-1 text-sm text-red-600 hidden" data-error-for="message">Schrijf een kort bericht.</p>
+                </div>
+                <div class="sm:col-span-2">
+                  <label class="inline-flex items-start gap-3 text-sm text-gray-600">
+                    <input id="privacy" type="checkbox" required class="mt-1" />
+                    <span>Ik ga akkoord dat mijn gegevens gebruikt worden om contact op te nemen. *</span>
+                  </label>
+                  <p class="mt-1 text-sm text-red-600 hidden" data-error-for="privacy">Vink akkoord aan om verder te gaan.</p>
+                </div>
+              </div>
+
+              <div class="mt-6 flex flex-col sm:flex-row gap-3">
+                <button type="submit" class="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition" aria-label="Verstuur bericht">Verstuur</button>
+                <button type="button" id="prefill-example" class="bg-white border px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition" aria-label="Vul voorbeeld in">Voorbeeld invullen</button>
+              </div>
+
+              <p id="form-status" class="mt-4 text-sm text-gray-600" aria-live="polite"></p>
+              <p class="mt-2 text-xs text-gray-500">Tip: na verzenden openen wij uw e-mailapp (mailto) met ingevulde gegevens.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-2xl font-bold mb-4 gradient-text">Azim Elec Tech</h3>
+          <p class="text-gray-400">Uw betrouwbare elektricien in Sint-Niklaas en omgeving.</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Snelle links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#home" class="hover:text-white transition">Home</a></li>
+            <li><a href="#services" class="hover:text-white transition">Onze diensten</a></li>
+            <li><a href="#about" class="hover:text-white transition">Over ons</a></li>
+            <li><a href="#projects" class="hover:text-white transition">Projecten</a></li>
+            <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Diensten</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>Herstellingen</li>
+            <li>Renovaties</li>
+            <li>Keuring-klaar maken</li>
+            <li>Installaties</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Contact</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a class="hover:text-white transition" href="tel:+32486708688">+32 486 70 86 88</a></li>
+            <li><a class="hover:text-white transition" href="mailto:Azimsalimi479@gmail.com">Azimsalimi479@gmail.com</a></li>
+            <li>Sint-Niklaas</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+        <p>&copy; <span id="year"></span> Azim Elec Tech. Alle rechten voorbehouden.</p>
+        <p class="mt-2 text-sm">BTW 1001449378</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating actions -->
+  <div class="fixed bottom-4 right-4 flex flex-col gap-3 z-50">
+    <a href="tel:+32486708688" class="bg-purple-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-purple-700 transition" aria-label="Bel Azim Elec Tech">
+      📞 <span class="hidden sm:inline">Bel</span>
+    </a>
+    <button id="to-top" class="hidden bg-white border px-4 py-3 rounded-full shadow-lg hover:bg-gray-50 transition" aria-label="Terug naar boven">↑ <span class="hidden sm:inline">Top</span></button>
+  </div>
+
+  <!-- Project modal -->
+  <div id="project-modal" class="hidden fixed inset-0 z-[60]" aria-hidden="true">
+    <div class="absolute inset-0 modal-backdrop" data-close="true"></div>
+    <div class="relative max-w-3xl mx-auto mt-24 p-4">
+      <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border">
+        <div class="p-5 sm:p-6 border-b flex items-start justify-between gap-4">
+          <div>
+            <h3 id="modal-title" class="text-xl sm:text-2xl font-black"></h3>
+            <p id="modal-subtitle" class="text-gray-600 mt-1"></p>
+          </div>
+          <button class="p-2 rounded-lg hover:bg-gray-100" data-close="true" aria-label="Sluit venster">✕</button>
+        </div>
+        <div class="p-5 sm:p-6">
+          <div id="modal-badge" class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-1 rounded-full bg-purple-50 text-purple-800 border border-purple-100"></div>
+          <p id="modal-desc" class="mt-4 text-gray-700"></p>
+          <div class="mt-6 grid sm:grid-cols-2 gap-4">
+            <div class="bg-gray-50 border rounded-2xl p-4">
+              <p class="font-semibold">Werkzaamheden</p>
+              <ul id="modal-list" class="mt-2 list-disc pl-5 text-gray-700 text-sm space-y-1"></ul>
+            </div>
+            <div class="bg-gray-50 border rounded-2xl p-4">
+              <p class="font-semibold">Volgende stap</p>
+              <p class="mt-2 text-sm text-gray-700">Wilt u iets gelijkaardigs? Stuur een bericht met uw situatie en eventueel foto’s.</p>
+              <a href="#contact" class="mt-3 inline-block bg-purple-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-purple-700 transition" data-close="true">Contact opnemen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const toggleMobileMenu = () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden', isOpen);
+      mobileBtn.setAttribute('aria-expanded', String(!isOpen));
+    };
+    mobileBtn.addEventListener('click', toggleMobileMenu);
+    mobileMenu.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        mobileBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Reveal on scroll
+    const revealEls = Array.from(document.querySelectorAll('.reveal'));
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) {
+          e.target.classList.add('reveal-visible');
+          io.unobserve(e.target);
+        }
+      }
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+
+    // Back to top button
+    const toTopBtn = document.getElementById('to-top');
+    const onScroll = () => {
+      if (window.scrollY > 600) toTopBtn.classList.remove('hidden');
+      else toTopBtn.classList.add('hidden');
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    toTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Projects data
+    const projects = [
+      {
+        id: 'p1',
+        title: 'Zekeringkast upgrade (woning)',
+        subtitle: 'Sint-Niklaas • Renovatie',
+        category: 'woning',
+        badge: 'Woning',
+        desc: 'Vernieuwing en herstructurering van de verdeelkast met correcte differentiëlen, labeling en nettere bekabeling.',
+        tasks: ['Nieuwe differentieelschakelaars', 'Herindeling kringen', 'Labeling & overzicht', 'Controle aarding']
+      },
+      {
+        id: 'p2',
+        title: 'Keuring-klaar maken na afkeuring',
+        subtitle: 'Waasland • Keuring',
+        category: 'keuring',
+        badge: 'Keuring',
+        desc: 'Gerichte aanpassingen op basis van het keuringsverslag, inclusief schema’s en herstel van niet-conformiteiten.',
+        tasks: ['Aanpassingen volgens verslag', 'Aarding/continuïteit check', 'Eendraadschema & situatieschema', 'Eindcontrole']
+      },
+      {
+        id: 'p3',
+        title: 'Nieuwe verlichting (binnen & buiten)',
+        subtitle: 'Woning • Installatie',
+        category: 'woning',
+        badge: 'Verlichting',
+        desc: 'Plaatsing van armaturen en schakeling op maat (functioneel en sfeervol), met veilige aansluitingen.',
+        tasks: ['Armaturen plaatsen', 'Schakelaars/kringen aanpassen', 'Buitenverlichting aansluiten', 'Test & oplevering']
+      },
+      {
+        id: 'p4',
+        title: 'Stopcontacten uitbreiden (keuken)',
+        subtitle: 'Woning • Uitbreiding',
+        category: 'woning',
+        badge: 'Stopcontacten',
+        desc: 'Extra stopcontacten op logische locaties met aandacht voor belasting en correcte kringverdeling.',
+        tasks: ['Nieuwe stopcontactpunten', 'Belastingcontrole', 'Netjes sleuven & afwerking', 'Meten en testen']
+      },
+      {
+        id: 'p5',
+        title: 'Elektrische aanpassingen voor kantoorruimte',
+        subtitle: 'Bedrijf • Renovatie',
+        category: 'bedrijf',
+        badge: 'Bedrijf',
+        desc: 'Aanpassingen voor werkplekken en apparatuur, met aandacht voor veiligheid, capaciteit en nette afwerking.',
+        tasks: ['Extra kringen voorzien', 'Kabelbeheer', 'Aansluiting apparatuur', 'Veiligheidstest']
+      },
+      {
+        id: 'p6',
+        title: 'Schema’s opmaken voor keuring',
+        subtitle: 'Keuring • Documentatie',
+        category: 'keuring',
+        badge: 'Schema’s',
+        desc: 'Professioneel uitgewerkte eendraadschema’s en situatieschema’s voor bestaande installaties.',
+        tasks: ['Inventaris van kringen', 'Situatieschema tekenen', 'Eendraadschema tekenen', 'Aanpassingen adviseren']
+      }
+    ];
+
+    function projectIconSVG(seed) {
+      // Small inline SVG for consistent visuals without external images
+      const colors = [
+        ['#667eea', '#764ba2'],
+        ['#22c55e', '#16a34a'],
+        ['#f97316', '#ea580c'],
+        ['#06b6d4', '#0891b2'],
+        ['#a855f7', '#7c3aed'],
+        ['#eab308', '#ca8a04']
+      ];
+      const pair = colors[seed % colors.length];
+      const bg = `linear-gradient(135deg, ${pair[0]}, ${pair[1]})`;
+      return { bg };
+    }
+
+    const projectGrid = document.getElementById('project-grid');
+
+    function renderProjects(filter = 'all') {
+      projectGrid.innerHTML = '';
+      const filtered = projects.filter(p => filter === 'all' ? true : p.category === filter);
+
+      filtered.forEach((p, idx) => {
+        const { bg } = projectIconSVG(idx);
+        const card = document.createElement('article');
+        card.className = 'group border rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition bg-white';
+        card.setAttribute('data-category', p.category);
+
+        card.innerHTML = `
+          <div class="h-36" style="background: ${bg}">
+            <div class="h-full w-full flex items-end p-4">
+              <span class="bg-white/15 border border-white/25 text-white text-xs font-semibold px-3 py-1 rounded-full">${p.badge}</span>
+            </div>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-black text-gray-900">${p.title}</h3>
+            <p class="text-gray-600 text-sm mt-1">${p.subtitle}</p>
+            <p class="text-gray-700 mt-3 text-sm">${p.desc}</p>
+            <div class="mt-4 flex items-center justify-between">
+              <button class="open-project bg-purple-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-purple-700 transition" data-project-id="${p.id}" aria-label="Bekijk details van ${p.title}">Details</button>
+              <span class="text-xs text-gray-500">Klik voor info</span>
+            </div>
+          </div>
+        `;
+
+        projectGrid.appendChild(card);
+      });
+
+      // Reveal newly rendered content (if filter used)
+      Array.from(projectGrid.children).forEach((el, i) => {
+        el.classList.add('reveal');
+        setTimeout(() => el.classList.add('reveal-visible'), 50 + i * 40);
+      });
+    }
+
+    renderProjects('all');
+
+    // Filter buttons
+    const filterBtns = Array.from(document.querySelectorAll('.filter-btn'));
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-gray-900', 'text-white');
+          b.classList.add('hover:bg-gray-50');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('bg-gray-900', 'text-white');
+        btn.classList.remove('hover:bg-gray-50');
+        btn.setAttribute('aria-selected', 'true');
+        renderProjects(btn.dataset.filter);
+      });
+    });
+
+    // Project modal
+    const modal = document.getElementById('project-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalSubtitle = document.getElementById('modal-subtitle');
+    const modalBadge = document.getElementById('modal-badge');
+    const modalDesc = document.getElementById('modal-desc');
+    const modalList = document.getElementById('modal-list');
+
+    function openModal(projectId) {
+      const p = projects.find(x => x.id === projectId);
+      if (!p) return;
+      modalTitle.textContent = p.title;
+      modalSubtitle.textContent = p.subtitle;
+      modalBadge.textContent = p.badge;
+      modalDesc.textContent = p.desc;
+      modalList.innerHTML = p.tasks.map(t => `<li>${t}</li>`).join('');
+
+      modal.classList.remove('hidden');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.open-project');
+      if (btn) openModal(btn.getAttribute('data-project-id'));
+      if (e.target && e.target.getAttribute && e.target.getAttribute('data-close') === 'true') closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') closeModal();
+    });
+
+    // Contact form validation + mailto
+    const form = document.getElementById('contact-form');
+    const statusEl = document.getElementById('form-status');
+
+    function showError(id, show, msg) {
+      const el = document.querySelector(`[data-error-for="${id}"]`);
+      if (!el) return;
+      if (msg) el.textContent = msg;
+      el.classList.toggle('hidden', !show);
+    }
+
+    function isValidEmail(v) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i.test(String(v || '').trim());
+    }
+
+    function isValidPhone(v) {
+      const s = String(v || '').trim();
+      if (!s) return true; // optional
+      return /^[+()0-9\s.-]{6,}$/.test(s);
+    }
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      statusEl.textContent = '';
+
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value.trim();
+      const privacy = document.getElementById('privacy').checked;
+
+      let ok = true;
+      if (!name) { showError('name', true); ok = false; } else showError('name', false);
+      if (!isValidEmail(email)) { showError('email', true); ok = false; } else showError('email', false);
+      if (!message) { showError('message', true); ok = false; } else showError('message', false);
+      if (!privacy) { showError('privacy', true); ok = false; } else showError('privacy', false);
+      if (!isValidPhone(phone)) { showError('phone', true, 'Vul een geldig telefoonnummer in (of laat leeg).'); ok = false; } else showError('phone', false);
+
+      if (!ok) {
+        statusEl.textContent = 'Controleer aub de gemarkeerde velden.';
+        statusEl.className = 'mt-4 text-sm text-red-600';
+        return;
+      }
+
+      const to = 'Azimsalimi479@gmail.com';
+      const mailSubject = encodeURIComponent(`[Azim Elec Tech] ${subject} - ${name}`);
+      const bodyLines = [
+        `Naam: ${name}`,
+        `E-mail: ${email}`,
+        phone ? `Telefoon: ${phone}` : 'Telefoon: (niet opgegeven)',
+        `Onderwerp: ${subject}`,
+        '',
+        message,
+        '',
+        '— Verzonden via https://www.azimelectech.be/'
+      ];
+      const mailBody = encodeURIComponent(bodyLines.join('\n'));
+      const mailto = `mailto:${to}?subject=${mailSubject}&body=${mailBody}`;
+
+      statusEl.textContent = 'Openen van uw e-mailapp… Als dit niet werkt, kopieer uw bericht en mail ons rechtstreeks.';
+      statusEl.className = 'mt-4 text-sm text-gray-700';
+
+      window.location.href = mailto;
+    });
+
+    // Prefill example
+    document.getElementById('prefill-example').addEventListener('click', () => {
+      document.getElementById('name').value = 'Voornaam Achternaam';
+      document.getElementById('phone').value = '+32 4xx xx xx xx';
+      document.getElementById('email').value = 'voorbeeld@email.be';
+      document.getElementById('subject').value = 'Keuring';
+      document.getElementById('message').value = 'Hallo, ik wil mijn woning keuring-klaar maken. Het gaat om een woning in Sint-Niklaas. Kunt u een inschatting maken en een afspraak voorstellen?';
+      document.getElementById('privacy').checked = true;
+      statusEl.textContent = 'Voorbeeld ingevuld. Pas gerust aan en verstuur.';
+      statusEl.className = 'mt-4 text-sm text-gray-700';
+    });
+
+    // Copy contact
+    document.getElementById('copy-contact').addEventListener('click', async (e) => {
+      e.preventDefault();
+      const text = 'Azim Elec Tech\nTel: +32 486 70 86 88\nE-mail: Azimsalimi479@gmail.com\nRegio: Sint-Niklaas';
+      try {
+        await navigator.clipboard.writeText(text);
+        statusEl.textContent = 'Contactgegevens gekopieerd naar klembord.';
+        statusEl.className = 'mt-4 text-sm text-green-700';
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } catch {
+        alert('Kopiëren lukt niet in deze browser. Noteer: +32 486 70 86 88 • Azimsalimi479@gmail.com');
+      }
+    });
+  </script>
+</body>
+</html>
